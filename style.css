@@ -1,0 +1,51 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ============================================================
+   Bootstrap config
+   ============================================================ */
+
+.bg-custom-black {
+  background-color: black;
+}
+
+.nav-item a:hover {
+  color: blue;
+  /* background-color: aliceblue; */
+}
+
+main {
+  height: 100vh;
+  background-image: url("https://cdn.imweb.me/thumbnail/20220414/3bb4b5b4053d8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  background-position: 50% 50%;
+  display: flex;
+  align-items: center;
+}
+
+.mainText {
+  padding-left: 30px;
+
+  & strong {
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 110px;
+  }
+
+  & small {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+}
+/* 
+footer a {
+  align-items: center;
+} */
